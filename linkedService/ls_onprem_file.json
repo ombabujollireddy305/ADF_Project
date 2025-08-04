@@ -1,0 +1,17 @@
+{
+	"name": "ls_onprem_file",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\AE745EV\\Documents\\Data_Files",
+			"userId": "US\\AE745EV",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyYTliZTZlNC0xOWNkLTRlZDItOGM0Ni03MmYxZjM0ZWJjZTgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Self-Hosted-IR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

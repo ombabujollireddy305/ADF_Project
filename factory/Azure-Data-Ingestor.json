@@ -1,0 +1,9 @@
+{
+	"name": "Azure-Data-Ingestor",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8ed6a990-09d5-412e-b4e5-ffdd4a416889",
+		"tenantId": "5b973f99-77df-4beb-b27d-aa0c70b8482c"
+	}
+}
